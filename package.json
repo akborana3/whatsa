@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-connection",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "start": "vercel --prod"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "node-cache": "^5.1.2",
+    "@open-wa/wa-automate": "^3.0.0"
+  }
+}
